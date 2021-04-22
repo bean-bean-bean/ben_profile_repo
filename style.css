@@ -1,0 +1,168 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-image: url("images/milad-b-fakurian-wNsHBf_bTBo-unsplash.jpg");
+  background-color: #cccccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  color: 87, 87, 87;
+  font-size: 30px;
+  font-weight: 900;
+}
+h2 {
+  color: 110, 110, 110;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: 117, 117, 117;
+  font-weight: 600;
+  font-size: 15px;
+}
+a:hover {
+  color: grey;
+}
+
+.zoom {
+  padding: 0;
+  transition: transform .1s; /* Animation */
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  opacity: 60%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 3px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: blue;
+}
+
+#profile {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+#socials {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: grey;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: grey;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+
